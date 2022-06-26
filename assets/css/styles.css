@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div .boton::before {
+content: 'Pasa por encima de mi';
+}
+
+.boton {
+    padding: 10px;
+}
+
+.boton:hover {
+color: rgb(255, 255, 255);
+background-color: rgb(21, 121, 8);
+}
+
