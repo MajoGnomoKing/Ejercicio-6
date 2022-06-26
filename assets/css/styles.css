@@ -1,8 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+   
 }
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div .boton::before {
 content: 'Pasa por encima de mi';
 }
@@ -14,5 +19,11 @@ content: 'Pasa por encima de mi';
 .boton:hover {
 color: rgb(255, 255, 255);
 background-color: rgb(21, 121, 8);
+cursor: pointer;
+}
+
+.boton:hover::before {
+    content: 'Hecho';
+    
 }
 
